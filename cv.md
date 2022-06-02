@@ -1,4 +1,6 @@
 # MIKALAI HETSMAN
+
+![Hetsman Mikalai] (https://github.com/mikalai-h/rsschool-cv/blob/rsschool-cv-html/img/MHfoto.jpg)
 ## Contact
 * **Location:** Minsk, Belarus
 * **Phone:** +375 29 753-26-77
