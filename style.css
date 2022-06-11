@@ -1,0 +1,261 @@
+@import "http://fonts.fontstorage.com/import/gagalin.css";
+@import "http://fonts.fontstorage.com/import/roboto.css";
+
+a:any-link {
+    color: white;
+}
+
+body {
+    max-width: 1300px;
+    min-width: 600px;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Roboto';
+    margin: 0 auto;
+}
+
+.cv {
+    max-width: 1300px;
+    margin: auto;
+    margin: auto;
+    display: flex;
+    box-shadow: 10px 5px 5px silver;
+    border: 1px black solid;
+}
+
+.left-side {
+    width: 40%;
+    color: white;
+    background-color: #054276;
+
+}
+
+.right-side {
+    width: 60%;
+    color: black;
+    background-color: #ffffff;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    background-color: #054276
+}
+
+.myphoto {
+    border-radius: 20%;
+    border: 2px solid white;
+    width: 100%;
+    margin: 0;
+    position: static;
+    left: auto;
+}
+
+.contacts h3 {
+    background-color: #08345d;
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+}
+
+main li {
+    margin-bottom: 10px;
+}
+
+.contacts li img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.contacts li p {
+    font-size: 16px;
+    display: inline;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+.skills h3 {
+    background-color: #08345d;
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+}
+
+.skills li img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.skills li p {
+    display: inline;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.langueges h3 {
+    background-color: #08345d;
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+}
+
+.langueges li img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.langueges li p {
+    display: inline;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.name h1 {
+    padding: 10px 15px 0px 15px;
+    font-family: 'Roboto';
+    font-size: 36px;
+    color: #08345d;
+    position: relative;
+    top: -20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.name h3 {
+    padding: 10px 15px 0px 15px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #08345d;
+    position: relative;
+    top: -50px;
+    opacity: 1;
+}
+
+.line-div {
+    margin-left: 10px;
+    margin-right: 6px;
+    border-bottom: 2px solid #054276;
+    position: relative;
+    top: -30px;
+    border-top: none;
+}
+
+.aboutme {
+    font-size: 24px;
+    color: #08345d;
+}
+
+.aboutme h3 {
+    margin-left: 10px;
+    width: 15%;
+    background-color: #08345d;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px 15px 10px 15px;
+}
+
+.aboutme_text {
+    padding: 10px 15px 0px 12px;
+    font-size: 20px;
+    line-height: 1.5;
+    position: relative;
+    top: -15px;
+}
+
+.education h3 {
+    margin-left: 10px;
+    width: 15%;
+    background-color: #08345d;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px 15px 10px 15px;
+}
+
+.courses h3 {
+    margin-left: 10px;
+    width: 15%;
+    background-color: #08345d;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px 15px 10px 15px;
+}
+
+.code-ex h3 {
+    margin-left: 10px;
+    width: 15%;
+    background-color: #08345d;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px 15px 10px 15px;
+}
+
+.code_box {
+    padding: 10px 15px 0px 12px;
+    width: 100%;
+    height: 50%;
+    line-height: 1.3;
+    position: relative;
+  }
+  
+.code {
+    padding: 30px 30px;  
+    width: 45%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    display: block;
+    background-color: #000000;
+    color: #f8f8f8;
+  }
+  
+
+  .ce_function {
+    color: #b294bb;
+    position: relative;
+  
+  }
+  
+  .ce_multiplay {
+    color: #de935f;
+    position: relative;
+  
+  }
+  
+  .ce_return {
+    color: #b294bb;
+    position: relative;
+    left: 20px;
+  }
+  
+  .a-b {
+    color: #de935f;
+    position: relative;
+  }
+  
+  .ab {
+    position: relative;
+    left: 20px;
+  }
+  
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: auto;
+    padding: 10px;
+    font-size: 0.8rem;
+    color: #ffffff;
+    background-color: #054276;
+    margin: auto;
+    margin: auto;
+    box-shadow: 10px 5px 5px silver;
+    border: 1px black solid;
+}
+
+footer p {
+    font-size: 20px; 
+    text-align: left;
+}
+
+.rs img {
+    margin-left: 10px;
+    width: 100%;
+    padding: 0px 20px 0px 0px;
+}
