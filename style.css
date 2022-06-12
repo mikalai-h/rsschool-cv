@@ -26,14 +26,14 @@ body {
 }
 
 .left-side {
-    width: 25%;
+    width: 30%;
     color: white;
     background-color: #054276;
 
 }
 
 .right-side {
-    width: 75%;
+    width: 70%;
     color: black;
     background-color: #ffffff;
 }
@@ -55,7 +55,7 @@ header {
 
 .contacts h3 {
     background-color: #08345d;
-    font-size: 20px;
+    font-size: 24px;
     padding: 10px 15px 10px 15px;
 }
 
@@ -69,7 +69,7 @@ main li {
 }
 
 .contacts li p {
-    font-size: 16px;
+    font-size: 20px;
     display: inline;
     vertical-align: middle;
     color: #ffffff;
@@ -77,7 +77,7 @@ main li {
 
 .skills h3 {
     background-color: #08345d;
-    font-size: 20px;
+    font-size: 24px;
     padding: 10px 15px 10px 15px;
 }
 
@@ -89,13 +89,13 @@ main li {
 .skills li p {
     display: inline;
     vertical-align: middle;
-    font-size: 16px;
+    font-size: 20px;
     color: #ffffff;
 }
 
 .languages h3 {
     background-color: #08345d;
-    font-size: 20px;
+    font-size: 24px;
     padding: 10px 15px 10px 15px;
 }
 
@@ -106,16 +106,17 @@ main li {
 
 .stars-icon {
     display: inline;
-
+    float: right;
     letter-spacing: 5px;
-    margin: 15px;
+    padding-right: 30px;
 }
 
 .languages li p {
     display: inline;
     vertical-align: middle;
-    font-size: 20px;
+    font-size: 22px;
     color: #ffffff;
+    line-height: 32px;
 }
 
 .name h1 {
@@ -139,23 +140,13 @@ main li {
     opacity: 1;
 }
 
-/* .line-div {
-    width: 90%;
-    margin-left: 25px;
-    margin-right: 6px;
-    border-bottom: 2px solid #054276;
-    position: relative;
-    top: -30px;
-    border-top: none;
-}
-*/
 .line-div-cont {
     width: 90%;
     margin-left: 25px;
     margin-right: 6px;
     border-bottom: 2px solid #054276;
     position: relative;
-    top: -22px;
+    top: -25px;
     border-top: none;
 }
 
@@ -168,7 +159,7 @@ main li {
     margin-left: 25px;
     width: 25%;
     background-color: #08345d;
-    font-size: 20px;
+    font-size: 24px;
     color: #ffffff;
     padding: 10px 15px 10px 15px;
 }
@@ -180,7 +171,7 @@ main li {
     font-family: 'Open Sans';
     font-style: italic;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.5;
     position: relative;
     top: -15px;
@@ -190,14 +181,14 @@ main li {
     margin-left: 25px;
     width: 25%;
     background-color: #08345d;
-    font-size: 20px;
+    font-size: 24px;
     color: #ffffff;
     padding: 10px 15px 10px 15px;
 }
 
 
 .education-box {
-    font-size: 20px;
+    font-size: 22px;
     color: #08345d;
     box-sizing: border-box;
     padding: 10px 15px 40px 25px;
@@ -218,13 +209,13 @@ main li {
     margin-left: 25px;
     width: 25%;
     background-color: #08345d;
-    font-size: 20px;
+    font-size: 24px;
     color: #ffffff;
     padding: 10px 15px 10px 15px;
 }
 
 .courses-box {
-    font-size: 20px;
+    font-size: 22px;
     color: #08345d;
     box-sizing: border-box;
     padding: 10px 15px 40px 25px;
@@ -252,7 +243,7 @@ main li {
     margin-left: 25px;
     width: 25%;
     background-color: #08345d;
-    font-size: 20px;
+    font-size: 24px;
     color: #ffffff;
     padding: 10px 15px 10px 15px;
 }
@@ -269,7 +260,7 @@ main li {
     padding: 30px 30px;
     width: 45%;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 24px;
     display: block;
     background-color: #000000;
     color: #f8f8f8;
