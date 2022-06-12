@@ -121,7 +121,7 @@ main li {
 .name h1 {
     padding: 10px 15px 0px 25px;
     font-family: 'Roboto';
-    font-size: 36px;
+    font-size: 56px;
     color: #08345d;
     position: relative;
     top: -20px;
@@ -131,7 +131,7 @@ main li {
 
 .name h3 {
     padding: 10px 15px 0px 25px;
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 500;
     color: #08345d;
     position: relative;
@@ -139,12 +139,23 @@ main li {
     opacity: 1;
 }
 
-.line-div {
+/* .line-div {
+    width: 90%;
     margin-left: 25px;
     margin-right: 6px;
     border-bottom: 2px solid #054276;
     position: relative;
     top: -30px;
+    border-top: none;
+}
+*/
+.line-div-cont {
+    width: 90%;
+    margin-left: 25px;
+    margin-right: 6px;
+    border-bottom: 2px solid #054276;
+    position: relative;
+    top: -22px;
     border-top: none;
 }
 
@@ -257,7 +268,7 @@ main li {
     padding: 30px 30px;
     width: 45%;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
+    font-size: 24px;
     display: block;
     background-color: #000000;
     color: #f8f8f8;
