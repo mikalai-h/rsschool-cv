@@ -10,7 +10,6 @@ a:any-link {
 body {
     width: 100%;
     max-width: 1300px;
-    
     box-sizing: border-box;
     background-color: white;
     font-family: 'Roboto';
@@ -18,7 +17,8 @@ body {
 }
 
 .cv {
-    width: 100%;   
+    width: 100%;
+    min-width: 480px;
     margin: auto;
     display: flex;
     box-shadow: 10px 5px 5px silver;
@@ -29,11 +29,11 @@ body {
     width: 25%;
     color: white;
     background-color: #054276;
-    
+
 }
 
 .right-side {
-    width:75%;
+    width: 75%;
     color: black;
     background-color: #ffffff;
 }
@@ -106,7 +106,7 @@ main li {
 
 .stars-icon {
     display: inline;
-   
+
     letter-spacing: 5px;
     margin: 15px;
 }
@@ -121,7 +121,7 @@ main li {
 .name h1 {
     padding: 10px 15px 0px 25px;
     font-family: 'Roboto';
-    font-size: 56px;
+    font-size: 42px;
     color: #08345d;
     position: relative;
     top: -20px;
@@ -131,7 +131,7 @@ main li {
 
 .name h3 {
     padding: 10px 15px 0px 25px;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 500;
     color: #08345d;
     position: relative;
@@ -180,7 +180,7 @@ main li {
     font-family: 'Open Sans';
     font-style: italic;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.5;
     position: relative;
     top: -15px;
@@ -197,7 +197,7 @@ main li {
 
 
 .education-box {
-    font-size: 24px;
+    font-size: 20px;
     color: #08345d;
     box-sizing: border-box;
     padding: 10px 15px 40px 25px;
@@ -224,7 +224,7 @@ main li {
 }
 
 .courses-box {
-    font-size: 24px;
+    font-size: 20px;
     color: #08345d;
     box-sizing: border-box;
     padding: 10px 15px 40px 25px;
@@ -233,7 +233,8 @@ main li {
 .courses-unit1 {
     border: #000000;
     box-sizing: border-box;
-    text-align: left; /* Выравниваем текст внутри блоков */
+    text-align: left;
+    /* Выравниваем текст внутри блоков */
 }
 
 .courses-unit2 {
@@ -248,7 +249,7 @@ main li {
 }
 
 .code-ex h3 {
-    margin-left:25px;
+    margin-left: 25px;
     width: 25%;
     background-color: #08345d;
     font-size: 20px;
@@ -268,7 +269,7 @@ main li {
     padding: 30px 30px;
     width: 45%;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 24px;
+    font-size: 20px;
     display: block;
     background-color: #000000;
     color: #f8f8f8;
