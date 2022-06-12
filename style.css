@@ -93,13 +93,13 @@ main li {
     color: #ffffff;
 }
 
-.langueges h3 {
+.languages h3 {
     background-color: #08345d;
     font-size: 20px;
     padding: 10px 15px 10px 15px;
 }
 
-.langueges li img {
+.languages li img {
     vertical-align: middle;
     margin-right: 5px;
 }
@@ -111,7 +111,7 @@ main li {
     margin: 15px;
 }
 
-.langueges li p {
+.languages li p {
     display: inline;
     vertical-align: middle;
     font-size: 20px;
