@@ -296,12 +296,10 @@ main li {
 footer {
     display: flex;
     justify-content: space-between;
-    align-items: auto;
     padding: 10px;
     font-size: 0.8rem;
     color: #ffffff;
     background-color: #054276;
-    margin: auto;
     margin: auto;
     box-shadow: 10px 5px 5px silver;
     border: 1px black solid;
