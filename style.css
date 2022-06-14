@@ -1,4 +1,3 @@
-@import "http://fonts.fontstorage.com/import/gagalin.css";
 @import "http://fonts.fontstorage.com/import/roboto.css";
 @import "http://fonts.fontstorage.com/import/opensans.css";
 
@@ -31,7 +30,6 @@ body {
     width: 25%;
     color: white;
     background-color: #054276;
-
 }
 
 .right-side {
@@ -118,7 +116,6 @@ main li {
 .skills li img {
     vertical-align: middle;
     margin-right: 5px;
-    padding-bottom: 5px;
 }
 
 .skills li p {
@@ -260,7 +257,6 @@ main li {
     border: #000000;
     box-sizing: border-box;
     text-align: left;
-    /* Выравниваем текст внутри блоков */
 }
 
 .courses-unit2 {
@@ -271,7 +267,6 @@ main li {
 .somethingtext {
     font-size: 16px;
     font-style: italic;
-
 }
 
 .code-ex h3 {
