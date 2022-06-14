@@ -9,7 +9,7 @@ a:any-link {
 
 body {
     width: 100%;
-    max-width: 1300px;
+    max-width: 1440px;
     box-sizing: border-box;
     background-color: white;
     font-family: 'Roboto';
@@ -25,17 +25,51 @@ body {
     border: 1px black solid;
 }
 
+
+
 .left-side {
-    width: 30%;
+    width: 25%;
     color: white;
     background-color: #054276;
 
 }
 
 .right-side {
-    width: 70%;
+    width: 75%;
     color: black;
     background-color: #ffffff;
+}
+
+.navi a {
+    color: #ffffff;
+}
+
+.navi {
+    display: flex;
+    justify-content: space-between;
+    background-color: #08345d;
+    font-family: 'Roboto';
+    padding: 5px;
+    margin-left: 25px;
+    margin-top: 15px;
+    width: 90%;
+}
+
+.navi-main {
+    display: flex;
+    text-align: center;
+}
+
+.navi-item {
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.navi-item:hover {
+    background-color: #b294bb;
+    border-radius: 10px;
 }
 
 header {
@@ -47,7 +81,7 @@ header {
 .myphoto {
     border-radius: 20%;
     border: 2px solid white;
-    width: 100%;
+    width: 90%;
     margin: 0;
     position: static;
     left: auto;
@@ -165,7 +199,7 @@ main li {
 }
 
 .aboutme_text {
-    width: 95%;
+    width: 90%;
     margin-left: 25px;
     padding: 10px 15px 25px 0px;
     font-family: 'Open Sans';
@@ -296,12 +330,10 @@ main li {
 footer {
     display: flex;
     justify-content: space-between;
-    align-items: auto;
     padding: 10px;
     font-size: 0.8rem;
     color: #ffffff;
     background-color: #054276;
-    margin: auto;
     margin: auto;
     box-shadow: 10px 5px 5px silver;
     border: 1px black solid;
