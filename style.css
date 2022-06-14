@@ -118,6 +118,7 @@ main li {
 .skills li img {
     vertical-align: middle;
     margin-right: 5px;
+    padding-bottom: 5px;
 }
 
 .skills li p {
@@ -141,7 +142,7 @@ main li {
 .stars-icon {
     display: inline;
     float: right;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     padding-right: 30px;
 }
 
