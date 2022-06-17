@@ -16,15 +16,13 @@ body {
 }
 
 .cv {
-    width: 80%;
+    width: 90%;
     min-width: 480px;
     margin: auto;
     display: flex;
     box-shadow: 10px 5px 5px silver;
     border: 1px black solid;
 }
-
-
 
 .left-side {
     width: 30%;
@@ -85,7 +83,7 @@ header {
     left: auto;
 }
 
-.contacts h3 {
+.contacts h2 {
     background-color: #08345d;
     font-size: 24px;
     padding: 10px 15px 10px 15px;
@@ -107,7 +105,7 @@ main li {
     color: #ffffff;
 }
 
-.skills h3 {
+.skills h2 {
     background-color: #08345d;
     font-size: 24px;
     padding: 10px 15px 10px 15px;
@@ -125,7 +123,7 @@ main li {
     color: #ffffff;
 }
 
-.languages h3 {
+.languages h2 {
     background-color: #08345d;
     font-size: 24px;
     padding: 10px 15px 10px 15px;
@@ -162,7 +160,7 @@ main li {
     text-transform: uppercase;
 }
 
-.name h3 {
+.name h2 {
     padding: 10px 15px 0px 25px;
     font-size: 22px;
     font-weight: 500;
@@ -187,7 +185,7 @@ main li {
     color: #08345d;
 }
 
-.aboutme h3 {
+.aboutme h2 {
     margin-left: 25px;
     width: 25%;
     background-color: #08345d;
@@ -209,7 +207,7 @@ main li {
     top: -15px;
 }
 
-.education h3 {
+.education h2 {
     margin-left: 25px;
     width: 25%;
     background-color: #08345d;
@@ -237,7 +235,31 @@ main li {
     border: #000000;
 }
 
-.courses h3 {
+.projects h2 {
+    margin-left: 25px;
+    width: 25%;
+    background-color: #08345d;
+    font-size: 24px;
+    color: #ffffff;
+    padding: 10px 15px 10px 15px;
+}
+
+.projects-box {
+    font-size: 22px;
+    color: #08345d;
+    box-sizing: border-box;
+    padding: 10px 15px 40px 25px;
+}
+
+.projects-unit a {
+    font-size: 22px;
+    color: #08345d;
+    box-sizing: border-box;
+    text-align: left;
+    
+}
+
+.courses h2 {
     margin-left: 25px;
     width: 25%;
     background-color: #08345d;
@@ -269,7 +291,7 @@ main li {
     font-style: italic;
 }
 
-.code-ex h3 {
+.code-ex h2 {
     margin-left: 25px;
     width: 25%;
     background-color: #08345d;
@@ -325,7 +347,7 @@ main li {
 
 footer {
     display: flex;
-    width: 80%;
+    width: 90%;
     justify-content: space-between;
     font-size: 0.8rem;
     color: #ffffff;
