@@ -40,4 +40,4 @@ return Array.from(new Set(arr1.concat(arr2).sort((x,y)=> x-y)));
 ## Languages:
 * English **A1/A2** (I had been some courses two years ago)
 * Belarus - native
-* Russian - native
+* Russian
