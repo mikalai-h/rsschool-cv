@@ -25,7 +25,7 @@ return Array.from(new Set(arr1.concat(arr2).sort((x,y)=> x-y)));
 ---
 ## Experience
 ---
-## Education
+## Educatio
 **University:**
 * Minsk Radioengineering College (*Programmer*)
 * Belarusian State Agrarian Technical University (*Economist*)
