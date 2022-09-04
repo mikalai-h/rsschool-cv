@@ -1,6 +1,4 @@
 # MIKALAI HETSMAN
-
-![Hetsman Mikalai](https://github.com/mikalai-h/rsschool-cv/blob/gh-pages/img/MHfoto320.jpg)
 ## Contact
 * **Location:** Minsk, Belarus
 * **Phone:** +375 29 753-26-77
@@ -14,13 +12,15 @@ I have great desire to move into IT.
 ---
 ## Skills
 * HTML
+* CSS
+* JS
 * Git
 ---
 ## Code Example
 ```javascript
-function multiply(a, b) {
-    return a * b
-};
+function mergeArrays(arr1, arr2) {
+return Array.from(new Set(arr1.concat(arr2).sort((x,y)=> x-y)));
+}
 ```
 ---
 ## Experience
